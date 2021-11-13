@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Qualithon contest",
+    "children" : [ {
+      "name" : "To solve the puzzle and acquire the treasure",
+      "uid" : "2c7d00385f00dd0b",
+      "parentUid" : "930648ff402d8aaa94fc517cb5cb2da2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636846706129,
+        "stop" : 1636846802907,
+        "duration" : 96778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "930648ff402d8aaa94fc517cb5cb2da2"
+  } ]
+}

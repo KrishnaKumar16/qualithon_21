@@ -1,0 +1,23 @@
+<testsuite name="features.qualithon_treasure.Qualithon contest" tests="1" errors="0" failures="0" skipped="0" time="91.560207" timestamp="2021-11-14T05:10:02.910433" hostname="QT-INBG-LT1173"><testcase classname="features.qualithon_treasure.Qualithon contest" name="To solve the puzzle and acquire the treasure" status="passed" time="91.560207"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @run
+  Scenario: To solve the puzzle and acquire the treasure
+    Given I enter the contest ... passed in 7.260s
+    When I solve the proceed button puzzle ... passed in 22.427s
+    And I solve the video puzzle ... passed in 12.261s
+    And I solve the maze puzzle ... passed in 23.999s
+    And I solve the map puzzle ... passed in 9.739s
+    And I solve the captcha ... passed in 11.751s
+    And I solve the socket puzzle ... passed in 4.123s
+    Then I should be having the treasure ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], [5, 5, 5, 1, 2, 1, 1, 1, 1, 2, 1, 0], [0, 1, 5, 1, 5, 5, 5, 5, 2, 2, 1, 0], [0, 1, 5, 5, 5, 1, 1, 5, 1, 1, 1, 0], [0, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 0], [0, 1, 1, 5, 5, 5, 5, 1, 1, 5, 5, 4], [0, 1, 5, 5, 1, 1, 1, 1, 5, 5, 1, 0], [0, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 0], [0, 1, 5, 5, 5, 5, 5, 5, 5, 5, 1, 0], [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "==3.141.0"
+pyautogui = "*"
+webdriver-manager = "*"
+appium-python-client = "==1.3.0"
+websockets = "*"
+pytesseract = "*"
+behave = "*"
+numpy = "*"
+opencv-python = "*"
+allure-behave = "*"
+rich = "==10.11.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
